@@ -1,12 +1,6 @@
-# 📘 Machine Learning Mathematics for AI/ML
+# 📘Mathematics for AI/ML
 
 > A structured repository documenting my journey of learning the mathematics behind Machine Learning, Deep Learning, and Artificial Intelligence.
-
-## 📌 About
-
-Mathematics is the foundation of every Machine Learning algorithm. This repository contains my daily notes, coding practice, explanations, and implementations of the mathematical concepts required to build a strong understanding of AI and Machine Learning.
-
-The goal of this repository is not only to learn the theory but also to implement each concept using Python and NumPy to strengthen problem-solving skills.
 
 ---
 
