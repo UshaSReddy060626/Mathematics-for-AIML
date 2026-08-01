@@ -1,7 +1,4 @@
 # 📘Mathematics for AI/ML
-
-> A structured repository documenting my journey of learning the mathematics behind Machine Learning, Deep Learning, and Artificial Intelligence.
-
 ---
 
 # 🎯 Objectives
@@ -18,7 +15,7 @@
 
 * Python
 * NumPy
-* Jupyter Notebook / VS Code
+* VS Code
 
 ---
 
