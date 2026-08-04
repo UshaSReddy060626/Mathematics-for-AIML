@@ -177,7 +177,6 @@ Machine-Learning-Mathematics/
 
 # 💻 What You'll Find in This Repository
 
-* Mathematical intuition
 * Formula explanations
 * Python implementations
 * NumPy practice
