@@ -1,81 +1,93 @@
-# 📘 Day 4 – Probability & Statistics I
+# 📘 Day 5 – Probability & Statistics II
 
-Today, I started learning the fundamentals of **Probability and Statistics**, which help Machine Learning models reason under uncertainty and make predictions based on data.
+Today, I continued my Machine Learning Mathematics journey by learning descriptive statistics and probability distributions, which are essential for understanding data before building machine learning models.
 
 ## 📚 Topics Covered
 
-### 🔹 Probability
+### 🔹 Mean
 
-* Learned that probability measures how likely an event is to occur.
-* Understood that probability values always lie between **0 and 1**.
-* Solved basic probability examples using favorable outcomes divided by total outcomes.
+* Learned that the mean is the arithmetic average of a dataset.
+* Understood how the mean provides a measure of the central value of the data.
+* Implemented mean calculation using `np.mean()`.
 
-### 🔹 Conditional Probability
+### 🔹 Median
 
-* Learned how the probability of an event changes when additional information is known.
-* Understood the concept of **"given that"** and its applications in real-world decision-making.
+* Learned that the median is the middle value after sorting the data.
+* Understood why the median is more robust than the mean when outliers are present.
+* Implemented median calculation using `np.median()`.
 
-### 🔹 Bayes' Theorem
+### 🔹 Mode
 
-* Learned the intuition behind updating probabilities when new evidence becomes available.
-* Explored its applications in spam filtering, medical diagnosis, fraud detection, and machine learning.
+* Learned that the mode is the most frequently occurring value in a dataset.
+* Calculated the mode using Python's `statistics.mode()` function.
 
-### 🔹 Random Variables
+### 🔹 Variance
 
-* Learned that a random variable stores the outcome of a random experiment.
-* Explored examples such as dice rolls, customer arrivals, and weather conditions.
+* Learned that variance measures how spread out data points are from the mean.
+* Implemented variance calculation using `np.var()`.
 
-### 🔹 Bernoulli Distribution
+### 🔹 Standard Deviation
 
-* Learned that a Bernoulli distribution models a single trial with only two possible outcomes: success or failure.
-* Implemented Bernoulli probability using SciPy.
+* Learned that standard deviation measures the average spread of the data around the mean.
+* Implemented standard deviation calculation using `np.std()`.
 
-### 🔹 Binomial Distribution
+### 🔹 Gaussian (Normal) Distribution
 
-* Learned that a Binomial distribution models multiple independent Bernoulli trials.
-* Calculated the probability of obtaining a specific number of successes using SciPy.
+* Learned the intuition behind the bell-shaped normal distribution.
+* Explored its applications in heights, weights, examination scores, and many machine learning algorithms.
+* Generated normally distributed data using `np.random.normal()`.
+
+### 🔹 Poisson Distribution
+
+* Learned that the Poisson distribution models the number of events occurring within a fixed interval of time or space.
+* Calculated event probabilities using `scipy.stats.poisson.pmf()`.
 
 ---
 
 ## 💻 Practical Implementation
 
-Implemented the following using Python and SciPy:
+Implemented the following using Python, NumPy, SciPy, and the Statistics module:
 
-* Basic Probability Calculations
-* Bernoulli Distribution
-* Binomial Distribution
-* Coin Toss Simulation
+* Mean
+* Median
+* Mode
+* Variance
+* Standard Deviation
+* Gaussian Distribution
+* Poisson Distribution
 
 ---
 
 ## 🤖 Real-World Applications
 
-* Spam Detection
-* Medical Diagnosis
+* Data Analysis
 * Fraud Detection
-* Recommendation Systems
-* Weather Forecasting
-* Customer Behavior Analysis
+* Medical Diagnosis
 * Quality Control
+* Recommendation Systems
+* Customer Arrival Prediction
+* Call Center Analytics
+* Machine Learning Data Preprocessing
 
 ---
 
 ## 🎯 Key Takeaways
 
-* Probability quantifies uncertainty.
-* Conditional probability updates predictions when new information is available.
-* Bayes' Theorem helps refine predictions using evidence.
-* Random variables represent uncertain outcomes numerically.
-* Bernoulli distribution models a single success/failure experiment.
-* Binomial distribution counts successes across multiple independent trials.
+* Mean, Median, and Mode describe the center of a dataset in different ways.
+* Variance and Standard Deviation measure how spread out the data is.
+* Gaussian Distribution models many naturally occurring continuous measurements.
+* Poisson Distribution models counts of events occurring in fixed intervals.
+* Understanding data distributions is a crucial step before training machine learning models.
 
 ---
 
 ## 🛠 Libraries Used
 
+* NumPy
 * SciPy
-* Random (Python Standard Library)
+* statistics (Python Standard Library)
+* Matplotlib (for visualization)
 
 ---
 
-✅ **Day 4 Completed – Building the Probability Foundation for Machine Learning 🚀**
+✅ **Day 5 Completed – Building a Strong Statistical Foundation for Machine Learning 🚀**
